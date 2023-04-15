@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Table</title>
+    <style>
+        body{
+            background-image :url('img1.jpg'); 
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size:100% 100%;
+        }
+    </style>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <form>
+
+        <h1 align="center" style="background-color: black;" width="10"> <font color="white"> Akash Shetty's Sign Up Page </font> </h1>
+
+        <table border="1" width="29%" height="600px" align="right" bgcolor="black">
+
+            <!-- row 1 -->
+            <tr align="center" bgcolor="yellow">
+                <th colspan="2"> <font size="10">Sign up </font> </th>
+            </tr>
+
+            <!-- row 2 -->
+            <tr>
+                <th><font color="yellow"> 
+
+                    <i class="fa fa-user-circle-o"></i> 
+
+                <label> Name </label> </th>
+                <th style="color:red"> <input type="text" name="name" required> * </th>
+            </tr>
+
+            <!-- row 3 -->
+            <tr>
+                <th><font color="yellow">
+
+                    <i class="fa fa-calendar"></i>
+
+                <label> Age </label> </th>
+                <th style="color:red"> <input type="date" name="age" required> * </th>
+            </tr>
+
+            <!-- row 4 -->
+            <tr>
+                <th><font color="yellow">
+
+                    <i class="fa fa-phone"></i>
+
+                <label> Mobile Number </label> </th>
+                <th style="color:red"> <input type="number" name="number"> </th>
+            </tr>     
+            
+            <!-- row 5 -->
+            <tr>
+                <th><font color="yellow">
+
+                    <i class="fa fa-envelope"></i>
+
+                <label> Email </label>
+                <th style="color:red"> <input type="email" name="email" required> * </th>
+            </tr>    
+            
+            <!-- row 6 -->
+            <tr>
+                <th><font color="yellow">
+
+                    <i class="fa fa-male" aria-hidden="true"></i>
+
+                <label> Gender </label> 
+
+                <i class="fa fa-female" aria-hidden="true"></i>
+
+                </th>
+
+
+                <th style="color:red">
+
+                    <font color="yellow">
+
+                    <input type="radio" name="gender" required> Male 
+                    <input type="radio" name="gender" required> Female </font>
+
+                * </th>
+            </tr>  
+            
+            <!-- row 7 -->
+            <tr>
+                <th><font color="yellow">
+
+                    <i class="fa fa-map" aria-hidden="true"></i>
+
+                <label> Country </label> 
+                </th>
+
+                <th style="color:red">
+                    <select name="city" required>
+                    <option value=""> ---select the country--- </option>    
+                    <option value="America" required> America </option>
+                    <option value="Australia" required> Australia </option>
+                    <option value="England" required> England </option>
+                    <option value="India" required> India </option>
+                    <option value="Japan" required> Japan </option>
+                    <option value="Mexico" required> Mexico </option>
+                    <option value="South Africa" required> South Africa </option>
+                    <option value="West Indies" required>West Indies </option>
+                 </th>
+            </tr>             
+
+
+            <!-- row 8 -->
+            <tr align="centre" bgcolor="yellow">
+                <th colspan="2"> 
+                    <a href="signedup.html">
+                    <input type="submit" value="submit" name="">
+                    </a>        
+
+                    <input type="reset"> 
+                </th>
+            </tr> 
+
+        </table>
+
+    </form>
+    
+</body>
+</html>
